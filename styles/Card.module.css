@@ -1,0 +1,83 @@
+/* Style the card container */
+.card {
+    flex-direction: column;
+    display: inline-block;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    justify-content: center;
+    width: 23%; /* Set the width to 23% to fit 4 cards per row */
+    margin: 1%;
+    vertical-align: top;
+    height: auto;
+}
+
+  /* Style the card image container */
+.card .image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    margin-top: auto;
+    background-size: cover;
+    background-position: center;
+  }
+
+  
+  /* Style the card image */
+  .card img {
+    width: 250px;
+    height: 250px;
+
+    
+  }
+  
+  /* Style the card content */
+  .card .content {
+    padding: 20px;
+  }
+  
+  /* Style the card title */
+  .card .title {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the card metadata */
+  .card .metadata {
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 20px;
+    text-align: left;
+    word-wrap: break-word;
+    font-weight: bold;
+  }
+  
+  /* Style the card action button */
+  .card .actionbutton {
+    display: flex;
+    background-color: rgb(38, 145, 184);
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 0;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card .actionbutton:hover {
+    background-color: #555;
+  }
+  
