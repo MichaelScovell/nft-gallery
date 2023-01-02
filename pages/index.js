@@ -87,7 +87,7 @@ export default function Home() {
             }
           }}>Search</button>
         </div>
-        <div>
+        <div className={styles.cardcontainer}>
           {
             NFTs.length && NFTs.map(nft => {
               return (
