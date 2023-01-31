@@ -9,12 +9,12 @@ This project followed the Alchmey Road to Web 3 Development projects:
 
 ### Application Technologies
 Technologies used:
-1. NextJS - Framework for enabling the application
-2. Alchemy API - https://docs.alchemy.com/reference/getnfts (API Doc Reference)
+- NextJS - Framework for enabling the application
+- Alchemy API - https://docs.alchemy.com/reference/getnfts (API Doc Reference)
 
 
 ### How to use
-Clone the repo
-Install packages by running npm install
-Create an env file and populate it with your goerli RPC url, etherscan key, metamask private key and the contract address (for the deployed contract).
-Run the application by running npm run start
+1. Clone the repo
+2. Install packages by running `npm install`
+3. Create an env file and populate it with your Alchemy Application's API Key (which is needed for being able to invoke the API)
+4. Run the application by using `npm run dev`
